@@ -229,6 +229,11 @@ body {
 
   @media only screen and (max-width: 640px) {
 
+    .masthead{
+      width: 100%;
+    }
+
+
     .container {
         width: 600px;
         float: left;
@@ -251,6 +256,80 @@ body {
         transform: rotate(90deg);
           
       }
+
+
+
+      #logo {
+          position: static;
+          margin: 0px auto;
+
+      }
+    
+      
+
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .masthead{
+      width: 100%;
+    }
+
+    body{
+      margin: 0px auto;
+    }
+
+    .container {
+        width: 600px;
+        float: left;
+        font-size: 18px;
+        overflow: wrap;
+
+    }
+
+    .auth-image {
+        /* float: left; */
+        width: 100px;
+        height: auto;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+        -webkit-transform:rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+          
+      }
+
+      .masthead{
+        width: 100%
+
+      }
+
+      #logo {
+          position: static;
+          margin: 0px auto;
+
+      }
+    
+      
+
+
+  }
+
+  @media only screen and (max-width: 980px) {
+
+    .container {
+        width: 600px;
+        float: left;
+        font-size: 18px;
+        overflow: wrap;
+
+    }
+
+    
 
       .masthead{
         width: 100%
